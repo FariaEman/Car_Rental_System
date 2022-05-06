@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="819.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SampleController">
+   <children>
+      <VBox prefHeight="708.0" prefWidth="66.0" styleClass="left-bar" stylesheets="@application.css" />
+      <VBox layoutX="805.0" prefHeight="708.0" prefWidth="58.0" styleClass="left-bar" stylesheets="@application.css" />
+      <Text layoutX="111.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registraiton No.">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="112.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="105.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ContactNumber">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Label layoutX="293.0" layoutY="49.0" prefHeight="42.0" prefWidth="234.0" styleClass="left-bar" stylesheets="@application.css" text="Customer Information" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Registertext" layoutX="305.0" layoutY="149.0" onAction="#PrintRentACar" prefHeight="42.0" prefWidth="286.0" />
+      <TextField fx:id="Contacttext" layoutX="305.0" layoutY="231.0" onAction="#PrintRentACar" prefHeight="42.0" prefWidth="286.0" />
+      <Button fx:id="BackRentPage" layoutX="86.0" layoutY="620.0" mnemonicParsing="false" onAction="#BackRentFun" prefHeight="42.0" prefWidth="106.0" styleClass="right-bar" stylesheets="@application.css" text="BackRentPage" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="MakePayment" layoutX="98.0" layoutY="518.0" mnemonicParsing="false" onAction="#MakePaymentFun" prefHeight="51.0" prefWidth="163.0" styleClass="left-bar" stylesheets="@application.css" text="MakePayement" textFill="#fafafa">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Text layoutX="106.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservation Date:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="RserveDate1text" layoutX="192.0" layoutY="371.0" onAction="#PrintRentACar" />
+      <DatePicker fx:id="RserveDate2text" layoutX="448.0" layoutY="371.0" onAction="#PrintRentACar" />
+      <Text layoutX="128.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="402.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button fx:id="Submit2" layoutX="376.0" layoutY="460.0" mnemonicParsing="false" onAction="#PrintRentACar" prefHeight="27.0" prefWidth="90.0" styleClass="left-bar" stylesheets="@application.css" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

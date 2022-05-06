@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="710.0" prefWidth="887.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SampleController">
+   <children>
+      <VBox layoutY="-1.0" prefHeight="710.0" prefWidth="56.0" styleClass="left-bar" stylesheets="@application.css" />
+      <VBox layoutX="831.0" layoutY="-1.0" prefHeight="710.0" prefWidth="56.0" styleClass="right-bar" stylesheets="@application.css" />
+      <Text layoutX="110.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" wrappingWidth="79.69338989257812">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Nametext" layoutX="108.0" layoutY="115.0" onAction="#PrintDrivers" prefHeight="38.0" prefWidth="236.0" />
+      <Text layoutX="110.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ContactNumber:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Contacttext" layoutX="108.0" layoutY="238.0" onAction="#PrintDrivers" prefHeight="38.0" prefWidth="236.0" />
+      <Button fx:id="BackDriverPage" layoutX="104.0" layoutY="624.0" mnemonicParsing="false" onAction="#BackDriverFun" prefHeight="41.0" prefWidth="91.0" styleClass="right-bar" stylesheets="@application.css" text="BackDriverPage" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Text layoutX="108.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Addresstext" layoutX="108.0" layoutY="342.0" onAction="#PrintDrivers" prefHeight="38.0" prefWidth="236.0" />
+      <Text layoutX="482.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="License:" wrappingWidth="79.69338989257812">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Licensetext" layoutX="476.0" layoutY="115.0" onAction="#PrintDrivers" prefHeight="38.0" prefWidth="236.0" />
+      <Text layoutX="482.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CNIC:" wrappingWidth="79.69338989257812">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="CNICtext" layoutX="476.0" layoutY="238.0" onAction="#PrintDrivers" prefHeight="38.0" prefWidth="236.0" />
+      <Text layoutX="476.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender:" wrappingWidth="79.69338989257812">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Gendertext" layoutX="476.0" layoutY="336.0" onAction="#PrintDrivers" prefHeight="38.0" prefWidth="236.0" />
+      <Button fx:id="Submit1" layoutX="390.0" layoutY="456.0" mnemonicParsing="false" onAction="#PrintDrivers" prefHeight="40.0" prefWidth="107.0" styleClass="left-bar" stylesheets="@application.css" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

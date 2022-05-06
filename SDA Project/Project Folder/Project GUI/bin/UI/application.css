@@ -1,0 +1,20 @@
+.background-image{
+	 -fx-background-image: url("file:/C:/Users/Faria Eman/Desktop/Project GUI/image/images.jpg");
+	 -fx-background-repeat: stretch;
+}
+
+.top-bar{
+	-fx-background-color: rgba(75,16,69,0.8);
+}
+
+.right-bar{
+	-fx-background-color: rgba(75,16,69,0.8);
+}
+
+.left-bar{
+	-fx-background-color: rgba(75,16,69,0.8);
+}
+
+.bottom-bar{
+	-fx-background-color: rgba(75,16,69,0.8);
+}

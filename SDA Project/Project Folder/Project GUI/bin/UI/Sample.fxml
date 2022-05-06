@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="883.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SampleController">
+   <children>
+      <HBox layoutY="-3.0" opacity="0.99" prefHeight="110.0" prefWidth="883.0" styleClass="top-bar" stylesheets="@application.css">
+         <children>
+            <Label prefHeight="126.0" prefWidth="883.0" text="     Car Rental System" textFill="#d75d5d">
+               <font>
+                  <Font size="86.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ImageView fitHeight="462.0" fitWidth="883.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/background.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutY="582.0" opacity="0.99" prefHeight="86.0" prefWidth="883.0" styleClass="top-bar" stylesheets="@application.css">
+         <children>
+            <Button fx:id="EnterIntoSystem" alignment="CENTER" blendMode="RED" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#EnterIntoSystemFun" prefHeight="38.0" prefWidth="896.0" text="EnterIntoSystem" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="707.0" prefWidth="910.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SampleController">
+   <children>
+      <VBox layoutY="46.0" prefHeight="614.0" prefWidth="54.0" styleClass="left-bar" stylesheets="@application.css" />
+      <VBox layoutX="864.0" layoutY="45.0" prefHeight="614.0" prefWidth="46.0" styleClass="right-bar" stylesheets="@application.css" />
+      <HBox layoutX="-3.0" prefHeight="46.0" prefWidth="918.0" styleClass="top-bar" stylesheets="@application.css" />
+      <HBox layoutY="659.0" prefHeight="46.0" prefWidth="910.0" styleClass="bottom-bar" stylesheets="@application.css" />
+      <Button fx:id="AddCars" layoutX="389.0" layoutY="163.0" mnemonicParsing="false" onAction="#AddCarsFun" prefHeight="46.0" prefWidth="108.0" styleClass="top-bar" stylesheets="@application.css" text="AddCars" textFill="WHITE" />
+      <Button fx:id="AddDrivers" layoutX="389.0" layoutY="265.0" mnemonicParsing="false" onAction="#AddDriverFun" prefHeight="46.0" prefWidth="108.0" styleClass="right-bar" stylesheets="@application.css" text="AddDrivers" textFill="WHITE" />
+      <Button fx:id="BackAdminPage" layoutX="137.0" layoutY="533.0" mnemonicParsing="false" onAction="#BackAdminFun" prefHeight="28.0" prefWidth="100.0" styleClass="right-bar" stylesheets="@application.css" text="BackAdminPage" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

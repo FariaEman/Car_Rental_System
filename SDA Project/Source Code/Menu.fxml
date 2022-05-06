@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="857.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.SampleController">
+   <children>
+      <VBox layoutY="49.0" prefHeight="614.0" prefWidth="52.0" styleClass="left-bar" stylesheets="@application.css" />
+      <VBox layoutX="826.0" layoutY="48.0" prefHeight="614.0" prefWidth="52.0" styleClass="right-bar" stylesheets="@application.css" />
+      <HBox prefHeight="50.0" prefWidth="878.0" styleClass="top-bar" stylesheets="@application.css" />
+      <HBox layoutX="-1.0" layoutY="661.0" prefHeight="50.0" prefWidth="878.0" styleClass="bottom-bar" stylesheets="@application.css" />
+      <Button fx:id="Admin" layoutX="319.0" layoutY="136.0" mnemonicParsing="false" onAction="#AdminFun" prefHeight="50.0" prefWidth="142.0" styleClass="top-bar" stylesheets="@application.css" text="Admin" textFill="WHITE" />
+      <Button fx:id="RentACar" layoutX="319.0" layoutY="246.0" mnemonicParsing="false" onAction="#RentACarFun" prefHeight="50.0" prefWidth="141.0" styleClass="top-bar" stylesheets="@application.css" text="RentACar" textFill="WHITE" />
+      <Button fx:id="ReserveCar" layoutX="319.0" layoutY="376.0" mnemonicParsing="false" onAction="#ReserveCarFun" prefHeight="50.0" prefWidth="142.0" styleClass="top-bar" stylesheets="@application.css" text="RerserveCar" textFill="WHITE" />
+      <Button fx:id="ReturnCar" layoutX="318.0" layoutY="484.0" mnemonicParsing="false" onAction="#ReturnCarFun" prefHeight="50.0" prefWidth="142.0" styleClass="top-bar" stylesheets="@application.css" text="ReturnCar" textFill="#fffdfd" />
+      <Button fx:id="Close" layoutX="319.0" layoutY="574.0" mnemonicParsing="false" onAction="#closeFun" prefHeight="50.0" prefWidth="142.0" styleClass="top-bar" stylesheets="@application.css" text="Close" textFill="#fafafa" />
+   </children>
+</AnchorPane>
